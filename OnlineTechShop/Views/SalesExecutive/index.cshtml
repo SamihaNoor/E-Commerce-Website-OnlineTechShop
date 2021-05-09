@@ -1,0 +1,32 @@
+﻿﻿@model OnlineTechShop.Models.SalesExecutive
+@{
+    Layout = "~/Views/Shared/_LayoutSalesExecutive.cshtml";
+}
+
+<div class="w3-container tab">
+    <h2 style="text-align:center"> Profile </h2>
+    <table width="50%">
+
+        <tr>
+            <td>Name</td>
+            <td> @Model.FullName </td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td> @Model.UserName</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td> @Model.Email</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td> @Model.Address</td>
+        </tr>
+        <tr>
+            <td>Phone No.</td>
+            <td> @Model.Phone</td>
+        </tr>
+
+    </table>
+</div>
